@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "LearnDL Text-Neutral Copier",
+  "version": "1.0",
+  "description": "Copy text-neutral content from the learn.deeplearning.ai website with one click.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.learn.deeplearning.ai/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
