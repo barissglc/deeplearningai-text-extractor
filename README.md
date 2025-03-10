@@ -56,10 +56,6 @@ Feel free to reach out for questions, suggestions, or feature requests.
 
 Contributions are welcome! Feel free to open an issue or submit a pull request to enhance the extension.
 
----
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
